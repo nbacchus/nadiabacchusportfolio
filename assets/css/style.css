@@ -1,16 +1,15 @@
 body {
-    /* more on this crazy alphanumerical value in a minute! */
     color: white;
     font-family: Helvetica, sans-serif;
     background-color: #DCE0EB;
   }
   
-  header {
-    padding: 20px 35px;
+header {
+    padding: 20px;
     background-color: #7AA7D2;
   }
   
-  header h1 {
+header h1 {
     font-weight: bold;
     font-size: 36px;
     color: white;
@@ -18,29 +17,46 @@ body {
     display: inline;
   }
 
-  header a {
+header a {
     text-decoration: none;
     color: white;
   }
   
-  header nav {
+header nav {
     float: right;
     margin: 7px 0;
   }
   
-  header nav ul li {
+header nav ul li {
     display: inline;
   }
   
-  header nav ul li a {
+header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 20px;
   }
 
-  section {
+section {
     padding: 60px;
   }
+ 
+.sections {
+    background-color: #7AA7D2;
+    font-family: Helvetica, sans-serif;
+    color: white;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+  }
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
 
   footer {
     background-color: #7AA7D2;
