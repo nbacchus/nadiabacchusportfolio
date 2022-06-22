@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8"/>
     <title>Nadia's Portfolio</title>
-    <!--link stylesheet here-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
@@ -26,9 +26,6 @@
                 <li>
                     <a href="#contact">Contact</a>
                 </li>
-                <li>
-                    <a href="#resume">Resumé</a>
-                </li>
             </ul>
         </nav>
     </header>
@@ -37,20 +34,38 @@
 
     <!--About Section-->
     <section id="about">
+        <img src="./assets/images/headshot.JPG">
         <h2>About</h2>
             <p>
-                My name is Nadia Bacchus.
+                My name is Nadia Bacchus. I am currently in the University of Miami Coding Bootcamp. I decided to take the course because I would like to pivot my current career path. In college I took a basic coding class that covered HTML and CSS but I am excited to further expand my knowledge.
             </p>
     </section>
 
     <!--My Work-->
     <section id="my-work">
         <h2>My Work</h2>
+        <img src="./assets/images/runbuddy.jpeg">
+        <a href="https://nbacchus.github.io/horiseon/"></a><img src="./assets/images/horiseon.jpeg" alt="Horiseon Website">
+        <a href="http://nbacchus.github.io"></a><img src="./assets/images/collegeportfolio.jpg" alt="College Portfolio">
     </section>
 
     <!--Contact-->
     <section id="contact">
         <h2>Contact</h2>
+       <form>
+            <p>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+            </p>
+            <p>
+                <label for="email">Enter email address:</label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
+            </p>
+            <p>
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+            </p>
+       </form> 
     </section>
 
     <!--footer-->
