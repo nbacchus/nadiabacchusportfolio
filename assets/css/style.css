@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
     color: white;
     font-family: Helvetica, sans-serif;
@@ -14,7 +20,6 @@ header h1 {
     font-weight: bold;
     font-size: 36px;
     color: white;
-    margin: 0;
     display: inline;
   }
 
@@ -40,31 +45,31 @@ header nav ul li a {
 
 section {
     padding: 60px;
+    background-color: #7AA7D2;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    height: 300px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
   }
 
 h2 {
     font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
-    margin: 15px auto 15px 0px;
+    margin-bottom: 15px;
 }
 
 .content {
-    display: inline-block;
-    margin: 20px;
-  }
- 
-.sections {
-    background-color: #7AA7D2;
-    font-family: Helvetica, sans-serif;
-    color: white;
-    height: 300px;
-    padding: 20px;
-    margin-bottom: 20px;
+  display: inline-block;
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
-
+ 
 .bio img {
-    height: 300px;
+    height: 250px;
 }
 
 .work img {
@@ -78,6 +83,24 @@ h2 {
   display: flex;
   flex-wrap: wrap;
 }
+
+.sections {
+    background-color: #7AA7D2;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    height: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+  border: 3px solid white;
+  background-color: #7AA7D2;
+  padding: 20px;
+  color: white;
+  float: center;
+}
+
 */
 
 .float-right {
@@ -85,13 +108,13 @@ h2 {
     margin-left: 25px;
 }
 
-.form {
-  border: 3px solid white;
-  background-color: #7AA7D2;
-  padding: 20px;
-  width: 500px;
+.form-input {
+  display: block;
+  padding: 7px 15px;
+  font-size: 15px;
   color: white;
-  float: center;
+  width: 75%;
+  margin-bottom: 10px;
 }
 
   footer {
