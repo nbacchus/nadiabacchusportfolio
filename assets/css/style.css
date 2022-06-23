@@ -59,13 +59,13 @@ section {
 }
 
 div {
-  width: 33%;
+  width: 30%;
   display: inline;
   margin: 10px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 15px;
@@ -110,6 +110,11 @@ footer h2 {
 .work img:hover {
   max-height: 250px;
   transition: 1s;
+}
+
+.work p {
+  text-align: center;
+  margin-top: 10px;
 }
 
 /*
