@@ -5,60 +5,83 @@
 }
 
 body {
-    color: white;
-    font-family: Helvetica, sans-serif;
-    font-weight: lighter;
-    background-color: #DCE0EB;
-  }
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  background-color: #DCE0EB;
+}
   
 header {
-    padding: 20px;
-    background-color: #7AA7D2;
-  }
+  padding: 20px;
+  background-color: #7AA7D2;
+}
   
 header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: white;
-    display: inline;
-  }
+  font-weight: bold;
+  font-size: 36px;
+  color: white;
+  display: inline;
+}
 
 header a {
-    text-decoration: none;
-    color: white;
-  }
+  text-decoration: none;
+  color: white;
+}
+
+header a:hover {
+  color: black;
+}
   
 header nav {
-    float: right;
-    margin: 7px 0;
-  }
+  float: right;
+  margin: 7px 0;
+}
   
 header nav ul li {
-    display: inline;
-  }
+  display: inline;
+}
   
 header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 20px;
-  }
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 20px;
+}
 
 section {
-    padding: 60px;
-    background-color: #7AA7D2;
-    font-family: Helvetica, sans-serif;
-    color: white;
-    height: 300px;
-    width: 100%;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
+  padding: 60px;
+  background-color: #7AA7D2;
+  font-family: Helvetica, sans-serif;
+  color: white;
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+div {
+  width: 33%;
+ display: grid;
+ margin: 10px;
+}
+
+div p {
+  text-align: center;
+}
 
 h2 {
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #7AA7D2;
+}
+
+footer h2 {
+  text-align: center;
+  text-decoration: none;
 }
 
 .content {
@@ -69,13 +92,18 @@ h2 {
 }
  
 .bio img {
-    height: 250px;
+  height: 250px;
 }
 
 .work img {
-    max-height: 200px;
-    margin-left: 20px;
-    margin-right: 20px;
+  max-height: 200px;
+  border: 3px solid white;
+}
+
+.work img:hover {
+  max-width: 30%;
+  max-height: 30%;
+  transition: 5s;
 }
 
 /*
@@ -104,8 +132,12 @@ h2 {
 */
 
 .float-right {
-    float: right;
-    margin-left: 25px;
+  float: right;
+  margin-left: 25px;
+}
+
+.form {
+  width: 50%;
 }
 
 .form-input {
@@ -113,15 +145,18 @@ h2 {
   padding: 7px 15px;
   font-size: 15px;
   color: white;
-  width: 75%;
+  width: 100%;
   margin-bottom: 10px;
 }
 
-  footer {
-    background-color: #7AA7D2;
-  }
+.form button {
+  color: #7AA7D2;
+  background-color: white;
+  font-size: 15px;
+  padding: 5px;
+}
 
-  footer h2 {
-    text-align: center;
-    text-decoration: none;
-  }
+.social {
+  width: 50%;
+  background-color: #7AA7D2;
+}
