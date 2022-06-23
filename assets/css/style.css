@@ -40,18 +40,34 @@ header nav ul li a {
 section {
     padding: 60px;
   }
+
+h2 {
+    font-size: 20px;
+}
+
+.content {
+    display: inline-block;
+    margin: 20px;
+  }
  
 .sections {
     background-color: #7AA7D2;
     font-family: Helvetica, sans-serif;
     color: white;
+    height: 300px;
+    padding: 30px;
+    margin-bottom: 20px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-  }
+.bio img {
+    height: 300px;
+}
+
+.work img {
+    display: inline;
+    max-height: 200px;
+    margin: 20px;
+}
 
 .float-right {
     float: right;
