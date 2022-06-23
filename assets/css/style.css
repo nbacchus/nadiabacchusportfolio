@@ -60,12 +60,8 @@ section {
 
 div {
   width: 33%;
- display: grid;
- margin: 10px;
-}
-
-div p {
-  text-align: center;
+  display: inline;
+  margin: 10px;
 }
 
 h2 {
@@ -85,7 +81,6 @@ footer h2 {
 }
 
 .content {
-  display: inline-block;
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -95,40 +90,32 @@ footer h2 {
   height: 250px;
 }
 
-.work img {
-  max-height: 200px;
-  border: 3px solid white;
-}
-
-.work img:hover {
-  max-width: 30%;
-  max-height: 30%;
-  transition: 5s;
-}
-
-/*
-.sections .work {
+.work {
   display: flex;
   flex-wrap: wrap;
 }
 
-.sections {
-    background-color: #7AA7D2;
-    font-family: Helvetica, sans-serif;
-    color: white;
-    height: 300px;
-    padding: 20px;
-    margin-bottom: 20px;
+.work h2 {
+  position: absolute;
 }
 
-.form {
+.work img {
+  display: flex;
+  margin-top: 45px;
+  max-height: 200px;
   border: 3px solid white;
-  background-color: #7AA7D2;
-  padding: 20px;
-  color: white;
-  float: center;
+  transition: 1s;
 }
 
+.work img:hover {
+  max-height: 250px;
+  transition: 1s;
+}
+
+/*
+.work p {
+  text-align: center;
+}
 */
 
 .float-right {
@@ -154,9 +141,4 @@ footer h2 {
   background-color: white;
   font-size: 15px;
   padding: 5px;
-}
-
-.social {
-  width: 50%;
-  background-color: #7AA7D2;
 }
