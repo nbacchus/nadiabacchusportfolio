@@ -1,6 +1,7 @@
 body {
     color: white;
     font-family: Helvetica, sans-serif;
+    font-weight: lighter;
     background-color: #DCE0EB;
   }
   
@@ -42,7 +43,10 @@ section {
   }
 
 h2 {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 15px auto 15px 0px;
 }
 
 .content {
@@ -55,7 +59,7 @@ h2 {
     font-family: Helvetica, sans-serif;
     color: white;
     height: 300px;
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 20px;
 }
 
@@ -64,16 +68,37 @@ h2 {
 }
 
 .work img {
-    display: inline;
     max-height: 200px;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+/*
+.sections .work {
+  display: flex;
+  flex-wrap: wrap;
+}
+*/
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+.form {
+  border: 3px solid white;
+  background-color: #7AA7D2;
+  padding: 20px;
+  width: 500px;
+  color: white;
+  float: center;
+}
+
   footer {
     background-color: #7AA7D2;
+  }
+
+  footer h2 {
+    text-align: center;
+    text-decoration: none;
   }
