@@ -30,6 +30,7 @@ header a {
 
 header a:hover {
   color: black;
+  font-weight: bold;
 }
   
 header nav {
@@ -55,17 +56,11 @@ section {
   height: auto;
   width: 100%;
   padding: 20px;
-  margin-bottom: 20px;
-}
-
-div {
-  width: 30%;
-  display: inline;
-  margin: 10px;
+  margin: 20px;
 }
 
 h2 {
-  font-size: 32px;
+  font-size: 45px;
   font-weight: bold;
   text-decoration: underline;
   margin-bottom: 15px;
@@ -82,12 +77,21 @@ footer h3 {
   text-decoration: none;
 }
 
+
+
+/*
 .content {
   margin: 20px;
   display: flex;
   flex-wrap: wrap;
 }
- 
+
+div {
+  width: 30%;
+  display: inline;
+  margin: 10px;
+}
+
 .bio img {
   height: 250px;
 }
@@ -95,10 +99,6 @@ footer h3 {
 .work {
   display: flex;
   flex-wrap: wrap;
-}
-
-.work h2 {
-  position: absolute;
 }
 
 .work img {
@@ -114,6 +114,16 @@ footer h3 {
   max-height: 250px;
   transition: 1s;
 }
+
+ */
+
+
+
+.work h2 {
+  position: absolute;
+}
+
+
 
 .work div {
   display: flex;
