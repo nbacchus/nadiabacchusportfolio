@@ -75,6 +75,18 @@ header nav ul li a {
   overflow: hidden;
 }
 
+#project {
+    background-color: #DCE0EB;
+    text-align: center;
+}
+
+#project img {
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
 #work {
   background-color: #DCE0EB;
   margin-bottom: 0px;
