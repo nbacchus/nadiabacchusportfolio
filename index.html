@@ -3,17 +3,17 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Nadia's Portfolio</title>
+    <title>Nadia Bacchus</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma-rtl.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 </head>
 
 <body>
     <!--navigation-->
     <header>
         <h1>
-            Nadia's Portfolio
-            <i class="fa-solid fa-hat-wizard"></i>
+            Nadia Bacchus
         </h1>
 
         <nav>
@@ -22,7 +22,7 @@
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#my-work">My Work</a>
+                    <a href="#work">My Work</a>
                 </li>
                 <li>
                     <a href="#contact">Contact</a>
@@ -31,22 +31,30 @@
         </nav>
     </header>
 
-    <!--About Section-->
-        <section id="about" class="box">
-            <img src="./assets/images/headshot.JPG" class="float-right">
-            <h2>About</h2>
+        <!--About Section-->
+        <section id="about" class="columns">
+            <div class="column is-one-fifth"></div>
+            <div class="column is-half">
+                <p class="hello">Hello,</p>
+                <h2 class="name">I'm Nadia.</h2>
                 <p>
-                    My name is Nadia Bacchus. I am currently in the University of Miami Coding Bootcamp. I decided to take the course because I would like to pivot my current career path. In college I took a basic coding class that covered HTML and CSS but I am excited to further expand my knowledge. I think my background in marketing and specifically graphic design will allow me to excel in this class.
+                    Currently, I'm enrolled in the University of Miami Coding Bootcamp. I decided to take the course because I would like to pivot my current career path. In college I took a basic coding class that covered HTML and CSS but I am excited to further expand my knowledge. My background in marketing and specifically graphic design will allow me to excel in this class and hopefully obtain a job in the UX/UI field.
                 </p>
+            </div>
+            <div class="column is-one-fifth"></div>
+        </section>
+
+        <!--Hero Image-->
+        <section class="hero">
+            <img src="./assets/images/photog.jpg" alt="photo of Nadia doing photography">
         </section>
     
         <!--My Work-->
-        <section class="box">
-            <h2>My Work</h2>
+        <section id="work">
         </section>
     
         <!--Contact-->
-        <section class="box">
+        <section id="contact">
             <h2>Contact</h2>
             <a href="https://www.linkedin.com/in/nadia-bacchus-0aa4908b/" class="fa-brands fa-linkedin fa-2xl"></a>
             <a href="https://github.com/nbacchus" class="fa-brands fa-square-github fa-2xl"></a>
@@ -60,7 +68,7 @@
             </h3>
         </footer>
 
-    <script src="https://kit.fontawesome.com/b09cbd54f6.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/b09cbd54f6.js" crossorigin="anonymous"></script>
 
 </body>
 
